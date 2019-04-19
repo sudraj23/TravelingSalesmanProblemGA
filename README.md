@@ -1,5 +1,5 @@
 # Traveling Salesman Problem Using GA
-Class project for the course CS 3510: Design and Analysis of Algorithms which was offered in Spring of 2019. Professor Constantine Dovloris was the instructor of this course. 
+Class project for the course CS 3510: Design and Analysis of Algorithms which was offered in Spring of 2019 at Georgia Tech. Professor Constantine Dovrolis was the instructor of this course. 
 
 Using Genetic Algorithms to solve the TSP.
 
