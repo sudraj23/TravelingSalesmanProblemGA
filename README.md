@@ -5,21 +5,23 @@ Using Genetic Algorithms to solve the TSP.
 
 Algorithm:
 
-Distance precomputed and stored in a matrice. where d[i][j] means distance between city i and j. This saves lot of time as calculating distance every time can really slow down this algorithm.
+Please read about how GA works online. Here are important parameters and choices I made:
 
-Fitness is defined as 1/(totaldistance). To calculate fitness of an individual distances are lokked up from the distance matrix and added and the total distance arrived at is inverted.
+-Distance precomputed and stored in a matrice. where d[i][j] means distance between city i and j. This saves lot of time as calculating distance every time can really slow down this algorithm.
 
-Random intialisation done. (Possible a greedy one will be better. Thinking about how to implement it)
+-Fitness is defined as 1/(totaldistance). To calculate fitness of an individual distances are looked up from the distance matrix and added and the total distance arrived at is inverted.
 
-Tournament selection: Size of tournaments is taken as 2.
+-Random intialisation done. (Possible a greedy one will be better. Thinking about how to implement it)
 
-Crossover: Ordered crossover employed. Crossover rate of 0.6
+-Tournament selection: Size of tournaments is taken as 2.
 
-Mutation: Swap mutation employed. Mutation rate of 0.3.
+-Crossover: Ordered crossover employed. Crossover rate of 0.6
 
-Elitism: Some members of population are saved for next generation. Elitism rate of 0.1.
+-Mutation: Swap mutation employed. Mutation rate of 0.3.
 
-Size of population: 3000
+-Elitism: Some members of population are saved for next generation. Elitism rate of 0.1.
+
+-Size of population: 3000
 
 Please acknowledge me if you use any of the functions in this script. Thanks!
 
