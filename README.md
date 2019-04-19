@@ -1,5 +1,8 @@
 # Traveling Salesman Problem Using GA
-Class project for the course 3510: Design and Analysis of Algorithms. Using Genetic Algorithms to solve the TSP.
+Class project for the course CS 3510: Design and Analysis of Algorithms which was offered in Spring of 2019. Professor Constantine Dovloris was the instructor of this course. 
+
+Using Genetic Algorithms to solve the TSP.
+
 Algorithm:
 
 Distance precomputed and stored in a matrice. where d[i][j] means distance between city i and j. This saves lot of time as calculating distance every time can really slow down this algorithm.
