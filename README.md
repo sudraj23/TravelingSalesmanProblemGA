@@ -1,11 +1,13 @@
-# TravelingSalesmanProblemGA
+# Traveling Salesman Problem Using GA
 Class project for the course 3510: Design and Analysis of Algorithms. Using Genetic Algorithms to solve the TSP.
 Algorithm:
+
 Distance precomputed and stored in a matrice. where d[i][j] means distance between city i and j. This saves lot of time as calculating distance every time can really slow down this algorithm.
 
 Fitness is defined as 1/(totaldistance). To calculate fitness of an individual distances are lokked up from the distance matrix and added and the total distance arrived at is inverted.
 
 Random intialisation done. (Possible a greedy one will be better. Thinking about how to implement it)
+
 Tournament selection: Size of tournaments is taken as 2.
 
 Crossover: Ordered crossover employed. Crossover rate of 0.6
